@@ -1,0 +1,127 @@
+/* General Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #2c3e50;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Headings */
+h1 {
+  color: #2c3e50;
+  font-size: 36px;
+  margin-top: 30px;
+}
+
+h2 {
+  color: #34495e;
+}
+
+/* Paragraphs */
+p {
+  color: #555;
+  font-size: 18px;
+}
+
+/* Sections */
+section {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Main Image */
+.main-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px auto;
+  display: block;
+}
+
+/* Call-To-Action Button */
+.cta-button {
+  display: inline-block;
+  margin: 20px auto;
+  padding: 12px 25px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #2980b9;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+}
+footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+footer a {
+  color: #3498db;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
